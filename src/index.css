@@ -9,3 +9,9 @@
 .main-div {
     @apply max-w-8xl mx-auto
 }
+:root :not(.selectable-all) {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }

@@ -4,22 +4,22 @@ export const   SlideRight = (delay) => {
         return{
             hidden:{
                 opacity : 0,
-                x :100
+                x :-100
             },
             show :{
                 opacity : 1,
-                x:0,
+                x:10,
                 transition:{
-                    duration : 0.5,
+                    duration : 0.6,
                     delay : delay,
                     ease : easeInOut
                 }
             },
             exit : {
                 opacity :0,
-                x : -100,
+                x : 100,
                 transition :{
-                    duration : 0.2,
+                    duration : 0.3,
                     ease : easeInOut
                 },
             }

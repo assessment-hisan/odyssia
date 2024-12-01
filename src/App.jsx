@@ -13,7 +13,7 @@ function App() {
     //   <Hero/>
     //   <Product/>
     // </div>
-    <div className="w-screen " >
+    <div className="w-screen select-none" >
       <Jero/>
     </div>
   )

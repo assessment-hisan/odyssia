@@ -21,7 +21,7 @@ const Jero = () => {
     },[currentIndex])
   return (
     <motion.div
-     className="text-white bg-[#061829] ">
+     className="text-white bg-[#061829] select-none ">
         <main className='max-w-7xl mx-auto overflow-hidden  grid grid-cols-1 lg:grid-cols-2 h-screen xl:h-[600px] relative'>
             {/* headphoneinfo section */}
             <div className='flex flex-col justify-end md:justify-center md:py-0  xl:max-w-[500px] order-1'> 
